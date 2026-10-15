@@ -1,10 +1,10 @@
-# ✨ Lexora AI — Text Summarization
+#  Lexora AI — Text Summarization
 
 **Less text. More insight.**
 
 Lexora AI is a lightweight text summarization web application that converts lengthy articles, reports, and other text into concise summaries using the **TextRank algorithm**. Built with Python and Streamlit, it provides a simple interface for extracting important information from text.
 
-## 🚀 Features
+## Features
 
 - **Text summarization:** Extracts important sentences from the input text using TextRank.
 - **Adjustable summary length:** Choose the number of sentences in the generated summary.
@@ -13,7 +13,7 @@ Lexora AI is a lightweight text summarization web application that converts leng
 - **Interactive web interface:** Clean, responsive layout with a light theme and purple accents.
 - **Lightweight processing:** Uses sentence similarity and graph-based ranking without downloading large Transformer models.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Frontend:** Streamlit
@@ -23,7 +23,7 @@ Lexora AI is a lightweight text summarization web application that converts leng
 - **Numerical operations:** NumPy
 - **Evaluation:** ROUGE metrics using `rouge-score`
 
-## ⚙️ How It Works
+## How It Works
 
 Lexora AI uses an extractive summarization approach:
 
@@ -35,20 +35,6 @@ Lexora AI uses an extractive summarization approach:
 6. **TextRank scoring:** PageRank assigns importance scores to the sentences based on their relationships.
 7. **Summary generation:** The highest-ranked sentences are selected and returned in their original order.
 8. **Output and statistics:** The application displays the summary, calculates text reduction, and allows the user to download the result.
-
-## 📂 Project Structure
-
-
-Lexora-AI/
-├── app.py
-├── summarizer.py
-├── requirements.txt
-├── evaluate.py
-├── sample_articles.csv
-└── README.md
-
-
-*The files shown above represent the intended project structure. Include only files that are present in your repository.*
 
 
 ## Limitations
